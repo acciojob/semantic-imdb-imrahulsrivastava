@@ -1,16 +1,108 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- the entire body must be written by student -->
 
-<html>
+    <header class="text-center m-3">
+      <h1>John Wick</h1>
+    </header>
+    <main>
+      <!-- Navigation Section -->
+      <section>
+        <nav class="navbar navbar-expand">
+          <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#actor" id="nav-actor" class="nav-link">Actors</a>
+              </li>
+              <li class="nav-item">
+                <a href="#quote" id="nav-quote" class="nav-link">Quotes</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      <section class="row mx-4">
+        <section class="col-8">
+          <!-- Summary Section -->
+          <section id="summary">
+            <article>
+              <p>
+                Legendary assassin John Wick (Keanu Reeves) retired from his
+                violent career after marrying the love of his life. Her sudden
+                death leaves John in deep mourning. When sadistic mobster Iosef
+                Tarasov (Alfie Allen) and his thugs steal John's prized car and
+                kill the puppy that was a last gift from his wife, John
+                unleashes the remorseless killing machine within and seeks
+                vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's
+                former colleague -- puts a huge bounty on John's head.
+              </p>
+            </article>
+          </section>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+          <!-- Actor Section -->
+          <section id="actor" class="mx-4">
+            <h2>Actors</h2>
+            <p>
+              John Wick is portrayed by Keanu Reeves, who delivers a stunning
+              performance in the lead role. Other notable actors in the movie
+              include Ian McShane and Willem Dafoe.
+            </p>
+          </section>
 
-</body>
+          <!-- Quote Section -->
+          <section id="quote" class="mx-4">
+            <h2>Favourite Quotes</h2>
+            <blockquote>
+              &ldquo;My name can't be *that* tough to pronounce!&rdquo;
+              <cite> - Keanu Reeves</cite>
+            </blockquote>
+          </section>
+        </section>
 
+        <section
+          id="aside"
+          class="col-4 d-flex justify-content-center align-items-center"
+        >
+          <aside>
+            <h3>IMDB Rating</h3>
+            <p class="d-flex">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png"
+                alt="star icon"
+                width="20"
+                height="20"
+                class="mx-2"
+              />
+              7.4/10
+            </p>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
